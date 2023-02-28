@@ -1,0 +1,36 @@
+Lexical convection:
+
+Physical Domain, Structural, Behaviour domain
+HDL hardware description languages,
+
+Standar reference IEEE 1364-2001,
+Resources: Verlog HDL - samir,
+JBasker
+Sutherland and Don mills
+
+HDL are used
+is concurrent description language, executes parallley
+RTL - Resister- transister language
+NetList - gate level structure
+
+synthesis tool translate HDL to Gate level netlist,
+Then it goes under processes, 
+FPGA,PAL,ASIC(Customs IC)
+
+Example:
+Magnitude comparitor.
+actuall way is to compute combinational circuit suing the input and out puts, which is 3-bit vs 3-bit = 
+
+Module: Design block,
+Has ports- input, output
+Module name, 
+Port declaration Terminal ports,
+No module inside other moduakes
+
+ends with endmodule
+
+
+4 logic values
+0, 1, z, x;
+
+

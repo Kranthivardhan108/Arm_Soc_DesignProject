@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="390000fs"></ZoomStartTime>
+      <ZoomEndTime time="514601fs"></ZoomEndTime>
+      <Cursor1Time time="485000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="206"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/HRESETn" type="logic">
+      <obj_property name="ElementShortName">HRESETn</obj_property>
+      <obj_property name="ObjectShortName">HRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/HTRANS" type="array">
+      <obj_property name="ElementShortName">HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/WE" type="logic">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/HREADY" type="logic">
+      <obj_property name="ElementShortName">HREADY</obj_property>
+      <obj_property name="ObjectShortName">HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/HSIZE" type="logic">
+      <obj_property name="ElementShortName">HSIZE</obj_property>
+      <obj_property name="ObjectShortName">HSIZE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/HREADYOUT" type="logic">
+      <obj_property name="ElementShortName">HREADYOUT</obj_property>
+      <obj_property name="ObjectShortName">HREADYOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/DATA_OUT" type="array">
+      <obj_property name="ElementShortName">DATA_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/address" type="array">
+      <obj_property name="ElementShortName">address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/CS_Q" type="logic">
+      <obj_property name="ElementShortName">CS_Q</obj_property>
+      <obj_property name="ObjectShortName">CS_Q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/WE_Q" type="logic">
+      <obj_property name="ElementShortName">WE_Q</obj_property>
+      <obj_property name="ObjectShortName">WE_Q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/address_Q" type="array">
+      <obj_property name="ElementShortName">address_Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address_Q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/DATA_IN" type="array">
+      <obj_property name="ElementShortName">DATA_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBSINGLERAM/ADDRESS" type="array">
+      <obj_property name="ElementShortName">ADDRESS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS[31:0]</obj_property>
+   </wvobject>
+</wave_config>

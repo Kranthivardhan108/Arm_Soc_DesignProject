@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 10 11:26:13 2023
+# Process ID: 8412
+# Current directory: D:/Practice/Tutorial/Tutorial example
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8496 D:\Practice\Tutorial\Tutorial example\Tutorial example.xpr
+# Log file: D:/Practice/Tutorial/Tutorial example/vivado.log
+# Journal file: D:/Practice/Tutorial/Tutorial example\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Practice/Tutorial/Tutorial example/Tutorial example.xpr}
+update_compile_order -fileset sources_1

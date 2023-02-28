@@ -1,0 +1,36 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f4ee434aaed24b2082e53f49c6272836 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCES/AHBLITE_SYS.v" Line 38. Module AHBLITE_SYS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCE_M0_CORE/CORTEXM0INTEGRATION.v" Line 32. Module CORTEXM0INTEGRATION doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCE_M0_CORE/cm0_dbg_reset_sync.v" Line 23. Module cm0_dbg_reset_sync(PRESENT=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCE_M0_CORE/CORTEXM0DS.v" Line 28. Module CORTEXM0DS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCE_M0_CORE/cortexm0ds_logic.v" Line 27. Module cortexm0ds_logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCE_M0_CORE/CORTEXM0DAP.v" Line 23. Module CORTEXM0DAP doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCE_M0_CORE/cortexm0_wic.v" Line 26. Module cortexm0_wic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCES/AHBDCD.v" Line 38. Module AHBDCD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCES/AHBMUX.v" Line 38. Module AHBMUX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCES/AHB2BRAM.v" Line 11. Module AHB2MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/AHB_LED/AHB2LED.v" Line 1. Module AHB2LED doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.cm0_dbg_reset_sync(PRESENT=0)
+Compiling module xil_defaultlib.cortexm0ds_logic
+Compiling module xil_defaultlib.CORTEXM0DS
+Compiling module xil_defaultlib.CORTEXM0DAP
+Compiling module xil_defaultlib.cortexm0_wic
+Compiling module xil_defaultlib.CORTEXM0INTEGRATION
+Compiling module xil_defaultlib.AHBDCD
+Compiling module xil_defaultlib.AHBMUX
+Compiling module xil_defaultlib.AHB2MEM
+Compiling module xil_defaultlib.AHB2LED
+Compiling module xil_defaultlib.AHBLITE_SYS
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

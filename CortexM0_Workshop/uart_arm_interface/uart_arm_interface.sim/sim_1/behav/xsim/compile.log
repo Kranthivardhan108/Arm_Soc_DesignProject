@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCES/AHB2BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHB2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCES/AHBDCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBDCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCES/AHBLITE_SYS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBLITE_SYS
+INFO: [VRFC 10-2458] undeclared symbol TDI_NS, assumed default net type wire [D:/Practice/LAB RESOURCES_UART/HDL_SOURCES/AHBLITE_SYS.v:192]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCES/AHBMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBMUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/AHB_UART/AHBUART.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBUART
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCE_M0_CORE/CORTEXM0DAP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORTEXM0DAP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCE_M0_CORE/CORTEXM0DS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORTEXM0DS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCE_M0_CORE/CORTEXM0INTEGRATION.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORTEXM0INTEGRATION
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/AHB_UART/baudgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BAUDGEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCE_M0_CORE/cm0_dbg_reset_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cm0_dbg_reset_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCE_M0_CORE/cortexm0_wic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cortexm0_wic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCE_M0_CORE/cortexm0ds_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cortexm0ds_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/AHB_UART/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/AHB_UART/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_RX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/AHB_UART/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/LAB RESOURCES_UART/HDL_SOURCES/tb_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

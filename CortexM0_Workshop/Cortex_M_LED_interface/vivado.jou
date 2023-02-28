@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jan 26 22:10:35 2023
+# Process ID: 4616
+# Current directory: D:/Practice/Cortex_M_LED_interface
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3912 D:\Practice\Cortex_M_LED_interface\Cortex_M_LED_interface.xpr
+# Log file: D:/Practice/Cortex_M_LED_interface/vivado.log
+# Journal file: D:/Practice/Cortex_M_LED_interface\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Practice/Cortex_M_LED_interface/Cortex_M_LED_interface.xpr
+update_compile_order -fileset sources_1

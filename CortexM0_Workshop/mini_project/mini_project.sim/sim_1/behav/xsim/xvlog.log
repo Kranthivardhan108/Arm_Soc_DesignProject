@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHB2BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHB2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHBDCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBDCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHBLITE_SYS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBLITE_SYS
+INFO: [VRFC 10-2458] undeclared symbol TDI_NS, assumed default net type wire [D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHBLITE_SYS.v:210]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHBMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBMUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/AHB_TIMER/AHBTIMER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AHBTIMER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/CORTEXM0DAP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORTEXM0DAP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/CORTEXM0DS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORTEXM0DS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/CORTEXM0INTEGRATION.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORTEXM0INTEGRATION
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/cm0_dbg_reset_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cm0_dbg_reset_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/cortexm0_wic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cortexm0_wic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/cortexm0ds_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cortexm0ds_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/AHB_TIMER/prescaler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prescaler
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Practice/TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/tb_timer_gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

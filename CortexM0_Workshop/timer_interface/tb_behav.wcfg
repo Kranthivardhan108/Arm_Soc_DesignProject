@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="21618118fs"></ZoomStartTime>
+      <ZoomEndTime time="22241119fs"></ZoomEndTime>
+      <Cursor1Time time="21729118fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="206"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HCLK" type="logic">
+      <obj_property name="ElementShortName">HCLK</obj_property>
+      <obj_property name="ObjectShortName">HCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HRESETn" type="logic">
+      <obj_property name="ElementShortName">HRESETn</obj_property>
+      <obj_property name="ObjectShortName">HRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HADDR" type="array">
+      <obj_property name="ElementShortName">HADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HWDATA" type="array">
+      <obj_property name="ElementShortName">HWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HTRANS" type="array">
+      <obj_property name="ElementShortName">HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HWRITE" type="logic">
+      <obj_property name="ElementShortName">HWRITE</obj_property>
+      <obj_property name="ObjectShortName">HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HSEL" type="logic">
+      <obj_property name="ElementShortName">HSEL</obj_property>
+      <obj_property name="ObjectShortName">HSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HREADY" type="logic">
+      <obj_property name="ElementShortName">HREADY</obj_property>
+      <obj_property name="ObjectShortName">HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HRDATA" type="array">
+      <obj_property name="ElementShortName">HRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/HREADYOUT" type="logic">
+      <obj_property name="ElementShortName">HREADYOUT</obj_property>
+      <obj_property name="ObjectShortName">HREADYOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/timer_irq" type="logic">
+      <obj_property name="ElementShortName">timer_irq</obj_property>
+      <obj_property name="ObjectShortName">timer_irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/current_state" type="logic">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/next_state" type="logic">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/value_next" type="array">
+      <obj_property name="ElementShortName">value_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/timer_irq_next" type="logic">
+      <obj_property name="ElementShortName">timer_irq_next</obj_property>
+      <obj_property name="ObjectShortName">timer_irq_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/last_HWRITE" type="logic">
+      <obj_property name="ElementShortName">last_HWRITE</obj_property>
+      <obj_property name="ObjectShortName">last_HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/last_HADDR" type="array">
+      <obj_property name="ElementShortName">last_HADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">last_HADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/last_HSEL" type="logic">
+      <obj_property name="ElementShortName">last_HSEL</obj_property>
+      <obj_property name="ObjectShortName">last_HSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/last_HTRANS" type="array">
+      <obj_property name="ElementShortName">last_HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">last_HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/control" type="array">
+      <obj_property name="ElementShortName">control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/load" type="array">
+      <obj_property name="ElementShortName">load[31:0]</obj_property>
+      <obj_property name="ObjectShortName">load[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/value" type="array">
+      <obj_property name="ElementShortName">value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/mode" type="logic">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/clk16" type="logic">
+      <obj_property name="ElementShortName">clk16</obj_property>
+      <obj_property name="ObjectShortName">clk16</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/timerclk" type="logic">
+      <obj_property name="ElementShortName">timerclk</obj_property>
+      <obj_property name="ObjectShortName">timerclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/LDADDR" type="array">
+      <obj_property name="ElementShortName">LDADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LDADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/VALADDR" type="array">
+      <obj_property name="ElementShortName">VALADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VALADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/CTLADDR" type="array">
+      <obj_property name="ElementShortName">CTLADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CTLADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/CLRADDR" type="array">
+      <obj_property name="ElementShortName">CLRADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CLRADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/st_idle" type="logic">
+      <obj_property name="ElementShortName">st_idle</obj_property>
+      <obj_property name="ObjectShortName">st_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/uAHBTIMER/st_count" type="logic">
+      <obj_property name="ElementShortName">st_count</obj_property>
+      <obj_property name="ObjectShortName">st_count</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,20 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Practice/mini_project_final/HDL_MINI_PROJECT/AHB2LED.v,1674406607,verilog,,D:/Practice/mini_project_final/HDL_SOURCES/AHBDCD.v,,AHB2LED,,,,,,,,
+D:/Practice/mini_project_final/HDL_MINI_PROJECT/AHBSINGLERAM.v,1674523207,verilog,,D:/Practice/mini_project_final/HDL_MINI_PROJECT/AHBTIMER.v,,AHBSINGLERAM,,,,,,,,
+D:/Practice/mini_project_final/HDL_MINI_PROJECT/AHBTIMER.v,1674735434,verilog,,D:/Practice/mini_project_final/HDL_SOURCES_M0/CORTEXM0DAP.v,,AHBTIMER,,,,,,,,
+D:/Practice/mini_project_final/HDL_MINI_PROJECT/prescaler.v,1674735434,verilog,,D:/Practice/mini_project_final/HDL_SOURCES/tb_timer_gpio.v,,prescaler,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES/AHB2BRAM.v,1674754416,verilog,,D:/Practice/mini_project_final/HDL_MINI_PROJECT/AHB2LED.v,,AHB2MEM,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES/AHBDCD.v,1674735435,verilog,,D:/Practice/mini_project_final/HDL_SOURCES/AHBLITE_SYS.v,,AHBDCD,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES/AHBLITE_SYS.v,1674752741,verilog,,D:/Practice/mini_project_final/HDL_SOURCES/AHBMUX.v,,AHBLITE_SYS,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES/AHBMUX.v,1674735435,verilog,,D:/Practice/mini_project_final/HDL_MINI_PROJECT/AHBSINGLERAM.v,,AHBMUX,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES/tb_timer_gpio.v,1674751893,verilog,,,,tb,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES_M0/CORTEXM0DAP.v,1674735437,verilog,,D:/Practice/mini_project_final/HDL_SOURCES_M0/CORTEXM0DS.v,,CORTEXM0DAP,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES_M0/CORTEXM0DS.v,1674735438,verilog,,D:/Practice/mini_project_final/HDL_SOURCES_M0/CORTEXM0INTEGRATION.v,,CORTEXM0DS,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES_M0/CORTEXM0INTEGRATION.v,1674735439,verilog,,D:/Practice/mini_project_final/HDL_SOURCES_M0/cm0_dbg_reset_sync.v,,CORTEXM0INTEGRATION,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES_M0/cm0_dbg_reset_sync.v,1674735437,verilog,,D:/Practice/mini_project_final/HDL_SOURCES_M0/cortexm0_wic.v,,cm0_dbg_reset_sync,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES_M0/cortexm0_wic.v,1674735439,verilog,,D:/Practice/mini_project_final/HDL_SOURCES_M0/cortexm0ds_logic.v,,cortexm0_wic,,,,,,,,
+D:/Practice/mini_project_final/HDL_SOURCES_M0/cortexm0ds_logic.v,1674735438,verilog,,D:/Practice/mini_project_final/HDL_MINI_PROJECT/prescaler.v,,cortexm0ds_logic,,,,,,,,
+D:/Practice/mini_project_final/mini_project_final.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,

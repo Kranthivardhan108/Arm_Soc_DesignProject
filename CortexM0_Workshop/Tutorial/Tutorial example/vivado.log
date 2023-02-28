@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 10 11:26:13 2023
+# Process ID: 8412
+# Current directory: D:/Practice/Tutorial/Tutorial example
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8496 D:\Practice\Tutorial\Tutorial example\Tutorial example.xpr
+# Log file: D:/Practice/Tutorial/Tutorial example/vivado.log
+# Journal file: D:/Practice/Tutorial/Tutorial example\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Practice/Tutorial/Tutorial example/Tutorial example.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Tutorial example' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 669.727 ; gain = 102.770
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 10 11:30:55 2023...

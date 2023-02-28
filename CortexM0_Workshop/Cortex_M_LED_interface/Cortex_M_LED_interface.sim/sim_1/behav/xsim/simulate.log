@@ -1,0 +1,3 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+WARNING: File D:PracticeLAB RESOURCES_LED _GPIOLAB RESOURCES_LED _GPIOASSEMBLY_CODEGPIO_LED.hex referenced on D:/Practice/LAB RESOURCES_LED _GPIO/LAB RESOURCES_LED _GPIO/HDL_SOURCES/AHB2BRAM.v at line 40 cannot be opened for reading. Please ensure that this file is available in the current working directory.

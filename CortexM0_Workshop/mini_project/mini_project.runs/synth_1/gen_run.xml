@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1674733239">
+  <File Type="PA-TCL" Name="tb.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="tb_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="tb_reports.tcl"/>
+  <File Type="RDS-RDS" Name="tb.vds"/>
+  <File Type="RDS-UTIL" Name="tb_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="tb_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="tb.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="tb_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="tb_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHB2BRAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MINI_PROJECT_1/PROJECT/AHB2LED.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHBDCD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHBLITE_SYS.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/AHBMUX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MINI_PROJECT_1/PROJECT/AHBSINGLERAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/AHB_TIMER/AHBTIMER.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/CORTEXM0DAP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/CORTEXM0DS.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/CORTEXM0INTEGRATION.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/cm0_dbg_reset_sync.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/cortexm0_wic.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES_M0/cortexm0ds_logic.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/AHB_TIMER/prescaler.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TIMER_INTERRUPT_MECHANISM/TIMER_INTERRUPT_MECHANISM/HDL_SOURCES/tb_timer_gpio.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tb"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

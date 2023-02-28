@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../HDL_SOURCES/AHB2BRAM.v" \
+"../../../../HDL_MINI_PROJECT/AHB2LED.v" \
+"../../../../HDL_SOURCES/AHBDCD.v" \
+"../../../../HDL_SOURCES/AHBLITE_SYS.v" \
+"../../../../HDL_SOURCES/AHBMUX.v" \
+"../../../../HDL_MINI_PROJECT/AHBSINGLERAM.v" \
+"../../../../HDL_MINI_PROJECT/AHBTIMER.v" \
+"../../../../HDL_SOURCES_M0/CORTEXM0DAP.v" \
+"../../../../HDL_SOURCES_M0/CORTEXM0DS.v" \
+"../../../../HDL_SOURCES_M0/CORTEXM0INTEGRATION.v" \
+"../../../../HDL_SOURCES_M0/cm0_dbg_reset_sync.v" \
+"../../../../HDL_SOURCES_M0/cortexm0_wic.v" \
+"../../../../HDL_SOURCES_M0/cortexm0ds_logic.v" \
+"../../../../HDL_MINI_PROJECT/prescaler.v" \
+"../../../../HDL_SOURCES/tb_timer_gpio.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

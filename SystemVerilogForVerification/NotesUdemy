@@ -1,0 +1,61 @@
+Types of Signals in Test bench
+1) Global Signals - Clock, reset
+2) Data sinals - Read write
+3) control signal - wr,OE raffr,waddr
+
+
+Initial Block:
+intial block is exeuted at t0,
+there can be multiple initial blocks
+
+Use case of initial block
+module tb(); // initialize module
+
+reg clk;
+reg rst;
+
+reg [3:0] temp;	// declaring an vector of size 4.
+
+//// 1) initializing global signals
+initial begin
+clk = 1'b0;	// single bit binary with zero as input.
+rst = 1'b0;
+end
+
+//// 2) Random signal for data/control
+initial begin
+temp = 4'b0100;	// 4 bit binary data with value 0100
+#10;				// Skip for 10 ms
+temp = 4'b1100;
+#10;
+
+//// 3) system task at task of simulation
+intial begin
+$dumpfile("dump.vcd");
+$dumpvars;
+end
+
+
+//// 4) analyzing values of variable on console
+initial begin
+$monitor("Temp : %0d at time : %0t", temp,$time);
+end
+
+//// 5) Stop simulation by forcefully calling finish.
+inital begin
+#200;
+end
+
+endmodule 	//end of module.
+
+
+Always Block;
+Used to evaluate a expression when one of thr variables to changed
+
+reg clk;
+
+intial clk = 1'b0;
+always #5 clk = ~clk; // 
+
+
+

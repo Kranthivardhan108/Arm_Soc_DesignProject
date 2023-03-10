@@ -28,6 +28,7 @@ temp = 4'b0100;	// 4 bit binary data with value 0100
 #10;				// Skip for 10 ms
 temp = 4'b1100;
 #10;
+end
 
 //// 3) system task at task of simulation
 intial begin
@@ -56,6 +57,20 @@ reg clk;
 
 intial clk = 1'b0;
 always #5 clk = ~clk; // 
+
+
+
+duty cyle = ton/(ton+toff)
+period = ton + toff;
+ton = dutycycle*period
+
+task generate(input real freq, input real dutycucle, output real ton, output real toff, output real phase);
+.
+.
+.
+endtask
+
+task clkgen(input real phase,input real ton, input real toff);
 
 
 

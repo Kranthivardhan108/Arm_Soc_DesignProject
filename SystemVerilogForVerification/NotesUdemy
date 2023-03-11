@@ -72,5 +72,23 @@ endtask
 
 task clkgen(input real phase,input real ton, input real toff);
 
+#SESSION 3;
+
+Hardware - reg(procedural), wire(coninuous)
+variable - fixed, floating(real)
+simulation - time, realtime.
+
+fixed = 2state (0,1) 4-state (0,1,x,z)
+2 state = signed, unsigned.
+signed - byte,shortint, int, long
+unsignd - bit7:0], bit[15:0];
 
 
+logic - can be used instead of wire/reg
+
+Arrays in System variable:
+bit arr[8];
+bit arr[] = {1,0,1,1};
+
+$display ("Value : %0d",arr[0]); 
+$display("value of first: %0p", arr2);

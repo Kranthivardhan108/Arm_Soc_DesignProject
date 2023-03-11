@@ -144,3 +144,20 @@ arr = new[5]; // assign size to array
 arr.delete(); // to delete dynamic array
 arr = new[[30](arr) // will create arr of 30 and copy the elements of arr;
 
+
+QUEUE :
+int arr[$] // add dollat for queue;
+
+initial begin
+arr = {1,2,3};
+$display("arr : %0p",arr);  
+arr.push_front(5);
+arr.push_back(4);
+arr.insert(2,10) ; //insert 10 at indexx 2;
+int j = arr.pop_front();
+j = arr.pop_back();
+arr.delete(1); // delete elements from given index;
+end
+
+bit[7:0] arr[256] = '{default = 0 } ; // array of 256 8 bit data.
+

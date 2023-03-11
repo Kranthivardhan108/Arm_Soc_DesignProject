@@ -1,0 +1,4 @@
+Specification sheet ->Verification plan
+system verilog is called constrain random lnaguage
+
+

@@ -1,4 +1,29 @@
 Specification sheet ->Verification plan
 system verilog is called constrain random lnaguage
 
+DUT -Design under testing
 
+Direct testing, Constrain Random-testing - 
+Functional coverage- test case covering all the function
+
+Layered testbench Architecture :
+layer1 (signal layer) - Apply stimuli -> DUT(signal) ->Receive response
+
+layer2(command layer) - Receive command(from upper layer) -> signal(to DUT)
+
+layer3(functional layer) - Recieve multiple commands -> schedule command for next layer
+
+layer4(scenario layer) - Generate sequences to verify the specific feature of DUT, check response to golden data
+
+layer5(test layer) - control the simulation until all sequences are applied to DUT
+
+Generator + driver + monitor = agent +scoreboard = Environment + DUT = TestBench
+IPC - Inter process communication
+
+Transaction - shares variables between class.
+Generator - generate randoom stimulus and send it to driver using IPC
+Driver - Receive stimulus and trigger signals to DUT using Interface
+Monitor - receive response and send to scoreboard
+Scoreboard - compare response with expected
+Environment - hold all the above together
+Test - 

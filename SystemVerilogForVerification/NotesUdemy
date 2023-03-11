@@ -92,3 +92,55 @@ bit arr[] = {1,0,1,1};
 
 $display ("Value : %0d",arr[0]); 
 $display("value of first: %0p", arr2);
+
+initialising array
+arr[] ='{1,2,3,4,5};
+arr[] = '{6{1}};
+arr[] = '{default:0};
+
+
+Loops - for loop, repeat, for each.
+must be inside procedural block; (initial begin end)
+
+initial begin
+for(int i=0; i<10; i++) begin
+.
+.
+.
+end
+end
+
+
+intital begin
+foreach(arr[j]) begin.
+.
+.
+end
+end
+
+initial begin
+repeat(10) begin
+.
+.
+.
+end
+end
+
+Array COPY; //arrays should have same size and type
+arr2 = arr1;
+
+Array COMPARE
+
+int status;
+status = (arr1 == arr2);
+status = arr1 != arr2 ;
+
+
+if(status ==1)arrs are same
+else status ==0 arrs are different
+
+Dynamic Array;
+arr = new[5]; // assign size to array
+arr.delete(); // to delete dynamic array
+arr = new[[30](arr) // will create arr of 30 and copy the elements of arr;
+
